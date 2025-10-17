@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.event-planner" path="/org/gnome/shell/extensions/event-planner/">
+    
+    <!-- Custom categories -->
+    <key name="custom-categories" type="s">
+      <default>'[]'</default>
+      <summary>Custom event categories</summary>
+      <description>
+        JSON array of custom categories with name and color.
+        Format: [{"name": "Sport", "color": "#FF5722"}, ...]
+      </description>
+    </key>
+    
+    <!-- Notifications -->
+    <key name="enable-notifications" type="b">
+      <default>true</default>
+      <summary>Enable event notifications</summary>
+      <description>
+        Show desktop notifications for events that have notifications enabled
+      </description>
+    </key>
+    
+    <key name="notification-minutes" type="i">
+      <default>15</default>
+      <range min="5" max="60"/>
+      <summary>Notification timing</summary>
+      <description>
+        How many minutes before an event to show notification (5-60 minutes)
+      </description>
+    </key>
+    
+  </schema>
+</schemalist>

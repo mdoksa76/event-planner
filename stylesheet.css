@@ -1,0 +1,331 @@
+/* Event Planner Extension Stylesheet */
+
+/* Panel Button */
+.event-planner-panel-button {
+    padding: 0 8px;
+}
+
+/* Header */
+.event-planner-header-box {
+    padding: 12px;
+    max-width: 420px;
+}
+
+.event-planner-header {
+    font-size: 14pt;
+    font-weight: bold;
+    color: #eeeeee;
+}
+
+/* Calendar Widget */
+.event-planner-calendar {
+    padding: 12px;
+    spacing: 8px;
+    min-width: 420px;
+    max-width: 420px;
+}
+
+.calendar-header {
+    spacing: 8px;
+    margin-bottom: 8px;
+}
+
+.calendar-nav-button {
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.calendar-nav-button:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.calendar-nav-button:active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.calendar-month-label {
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 4px 0;
+}
+
+.calendar-day-name {
+    font-size: 9pt;
+    color: #999999;
+    padding: 4px;
+    min-width: 32px;
+    text-align: center;
+}
+
+.calendar-day-button {
+    min-width: 32px;
+    min-height: 32px;
+    border-radius: 4px;
+    margin: 2px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.calendar-day-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.calendar-day-button.selected {
+    background-color: #3584e4;
+    border-color: #3584e4;
+}
+
+.calendar-day-button.today {
+    border-color: #3584e4;
+}
+
+.calendar-day-button.selected.today {
+    background-color: #3584e4;
+    border-color: #1c71d8;
+}
+
+.calendar-day-label {
+    font-size: 10pt;
+}
+
+.calendar-event-indicator {
+    font-size: 6pt;
+    color: #3584e4;
+}
+
+.calendar-day-button.selected .calendar-event-indicator {
+    color: #ffffff;
+}
+
+/* Event List */
+.event-planner-event-list {
+    min-width: 420px;
+    max-width: 420px;
+    max-height: 300px;
+    padding: 8px;
+}
+
+.event-list-container {
+    spacing: 8px;
+}
+
+.event-list-empty {
+    padding: 32px;
+    spacing: 12px;
+}
+
+.event-list-empty-icon {
+    color: #666666;
+}
+
+.event-list-empty-label {
+    font-size: 11pt;
+    color: #999999;
+}
+
+.event-list-empty-hint {
+    font-size: 9pt;
+    color: #666666;
+}
+
+.event-list-item {
+    padding: 8px;
+    spacing: 8px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.05);
+    max-width: 400px;
+}
+
+.event-list-item:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.event-item-content {
+    spacing: 4px;
+}
+
+.event-item-time {
+    font-size: 9pt;
+    color: #999999;
+    margin-right: 8px;
+}
+
+.event-item-title {
+    font-size: 10pt;
+    font-weight: bold;
+    max-width: 280px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+.event-item-description {
+    font-size: 9pt;
+    color: #cccccc;
+    max-width: 280px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.event-item-category {
+    font-size: 8pt;
+    color: #999999;
+    font-style: italic;
+}
+
+.event-item-actions {
+    spacing: 4px;
+}
+
+.event-action-button {
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.event-action-button:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.event-delete-button:hover {
+    background-color: rgba(237, 51, 59, 0.3);
+}
+
+/* Event Dialog */
+.event-dialog {
+    min-width: 450px;
+}
+
+.event-dialog-content {
+    spacing: 16px;
+    padding: 16px;
+}
+
+.event-dialog-label {
+    font-size: 10pt;
+    font-weight: bold;
+    color: #eeeeee;
+    margin-bottom: 4px;
+}
+
+.event-dialog-entry {
+    padding: 8px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    font-size: 10pt;
+}
+
+.event-dialog-entry:focus {
+    border-color: #3584e4;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.event-dialog-time-box {
+    spacing: 16px;
+}
+
+.event-dialog-time-display {
+    font-size: 16pt;
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+}
+
+.event-time-button {
+    padding: 4px 12px;
+    margin: 2px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 14pt;
+}
+
+.event-time-button:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.event-time-button:active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.event-dialog-category-box {
+    spacing: 8px;
+}
+
+.event-category-button {
+    padding: 8px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 2px solid transparent;
+}
+
+.event-category-button:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.event-category-button.selected {
+    border-color: #3584e4;
+    background-color: rgba(53, 132, 228, 0.2);
+}
+
+.event-category-label {
+    font-size: 9pt;
+    margin-top: 4px;
+}
+
+/* Notification checkbox */
+.event-dialog-notification-box {
+    spacing: 8px;
+    margin-top: 12px;
+}
+
+.event-notification-checkbox {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.event-notification-checkbox:checked {
+    background-color: #3584e4;
+    border-color: #3584e4;
+}
+
+.event-notification-checkbox:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.event-notification-label {
+    font-size: 10pt;
+    color: #eeeeee;
+}
+
+/* Notification timing controls (NEW) */
+.event-dialog-notification-timing {
+    spacing: 8px;
+    margin-top: 8px;
+    margin-left: 32px;
+    padding: 8px;
+    /*border-left: 2px solid rgba(53, 132, 228, 0.3);
+    background-color: rgba(53, 132, 228, 0.05);
+    border-radius: 4px;*/
+}
+
+.event-notification-timing-controls {
+    spacing: 8px;
+}
+
+.event-notification-minutes-display {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #eeeeee;
+    padding: 4px 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    text-align: center;
+}

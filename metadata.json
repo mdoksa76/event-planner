@@ -1,0 +1,13 @@
+{
+  "name": "Event Planner",
+  "description": "Manage your events with calendar and categories. Add, edit, and organize daily events with color-coded categories. Get timely notifications before events start.",
+  "uuid": "event-planner@mdoksa",
+  "shell-version": [
+    "45",
+    "46",
+    "47"
+  ],
+  "version": 1,
+  "url": "https://github.com/mdoksa76/event-planner",
+  "settings-schema": "org.gnome.shell.extensions.event-planner"
+}
