@@ -7,7 +7,7 @@
     "46",
     "47"
   ],
-  "version": 1,
+  "version": 2,
   "url": "https://github.com/mdoksa76/event-planner",
   "settings-schema": "org.gnome.shell.extensions.event-planner"
 }

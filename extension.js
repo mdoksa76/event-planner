@@ -82,7 +82,6 @@ export default class EventPlannerExtension extends Extension {
 
         // Clean up event manager
         if (this._eventManager) {
-            this._eventManager.run_dispose();
             this._eventManager = null;
         }
 
